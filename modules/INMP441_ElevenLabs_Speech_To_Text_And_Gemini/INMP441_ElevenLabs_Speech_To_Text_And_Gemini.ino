@@ -18,12 +18,12 @@ bool mic_state = false;
 bool ask_gemini = false;  // ask gemini once the record has done  // tanya gemini saat record selesai
 
 // WiFi credentials
-const char* ssid = "Infinix NOTE 30";
-const char* password = "12345678";
+const char* ssid = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your ssid
+const char* password = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your password
 
 // API Declaration
-const char* elevenlabsApiKey = "sk_3f90e924b4e9788f4e2d8991ee15bdaa4335d4593ad1bc8a"; // ElevenLabs API
-const char* Gemini_Token = "AIzaSyCBqDtD6TVQm8CNz5-lsUg1C7bfCTex9NM";    // Gemini API
+const char* elevenlabsApiKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your ElevenLabs API
+const char* Gemini_Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your Gemini API
 const char* Gemini_Max_Tokens = "100";
 
 // Transcript ElevenLabs
@@ -291,14 +291,6 @@ void sendToGemini() {
   } else {
     Serial.printf("[HTTPS] Unable to connect\n");
   }
-
-  /*
-  if(Answer == "MAJU") motor_state = 1;
-  else if(Answer == "MUNDUR") motor_state = 2;
-  else if(Answer == "SPIN") motor_state = 3;
-  else if(Answer == "STOP") motor_state = 4;
-  else if(Answer == "CEPAT") speed_state = true;
-  else if(Answer == "LAMBAT") speed_state = false; */
 
   data_mic = "";
   ask_gemini = false;
