@@ -45,12 +45,12 @@ unsigned long previous_read = 0;    // sensor
 unsigned long previous_rotate = 0;  // motor
 
 // WiFi credentials
-const char* ssid = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your ssid
+const char* ssid = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your ssid
 const char* password = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your password
 
 // API Key
-const char* deepgramApiKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";   // Deepgram API
-const char* Gemini_Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";     // Gemini API
+const char* deepgramApiKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your Deepgram API
+const char* Gemini_Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your Gemini API
 const char* Gemini_Max_Tokens = "100";
 
 // Answer parsing from API
