@@ -18,12 +18,12 @@ bool mic_state = false;
 bool ask_gemini = false;  // ask gemini once the record has done  // tanya gemini saat record selesai
 
 // WiFi credentials
-const char* ssid = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your ssid
-const char* password = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your password
+const char* ssid = "YOUR_WIFI_NAME";  // fill with your ssid
+const char* password = "YOUR_WIFI_PASSWORD";  // fill with your password
 
 // API Declaration
-const char* elevenlabsApiKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your ElevenLabs API
-const char* Gemini_Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // fill with your Gemini API
+const char* elevenlabsApiKey = "YOUR_ELEVENLABS_API_KEY";  // fill with your ElevenLabs API
+const char* Gemini_Token = "YOUR_GEMINI_API_KEY";  // fill with your Gemini API
 const char* Gemini_Max_Tokens = "100";
 
 // Transcript ElevenLabs
