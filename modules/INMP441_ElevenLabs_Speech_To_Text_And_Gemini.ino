@@ -1,6 +1,6 @@
 /* INMP441 Speech To Text
    Jun 19, 2025 2:20 AM
-   By : Ya'afi Ft ChatGPT
+   By : Feezzyapping Ft ChatGPT
 */
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
